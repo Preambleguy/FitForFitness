@@ -1,13 +1,13 @@
 # Fit For Fitness Club Website
 
-**Name:** John Burch
+**Names:** John Burch, Shay Hart, Rob Cavalier
 
 **Class:** CIS-130
 
-**Project:** W12-P - Fit For Fitness
+**Project:** W13-C - Fit For Fitness Collaboration
 
 ### Project Description:
-A two-page website demonstrating the use of CSS Flexbox and Bootstrap, with a focus on mobile-first design and responsive layout.
+A full collaborative website demonstrating the use of Bootstrap, with a focus on mobile-first design and responsive layout.
 
 ### Live URL
 [https://ozarktechwebdev.com/john_b/fit-for-fitness/](https://ozarktechwebdev.com/john_b/fit-for-fitness/)
