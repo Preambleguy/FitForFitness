@@ -20,77 +20,65 @@
     <nav class="custom-navbar">
         <h1>Fit for Fun <br>Fitness Club</h1>
         <img src="img/fitness-club-logo.png" alt="" class="custom-logo">
-      <div class="table-responsive mx-0 my-4">
-                <table class="table table-striped-columns caption-top">
-                    <caption>Fitness Class Schedule</caption>
-                    <thead>
-                        <tr>
-                            <th scope="col">Time</th>
-                            <th scope="col">Monday</th>
-                            <th scope="col">Wednesday</th>
-                            <th scope="col">Friday</th>
-                            <th scope="col">Saturday</th>
-                        </tr>
-                    </thead>
-                    <tbody class="table-group-divider">
-                        <tr>
-                            <th scope="row">6:00 AM</th>
-                            <td>Sunrise Yoga</td>
-                            <td>High Intensity Blast</td>
-                            <td>Strength Circuit</td>
-                            <td>Bootcamp</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">9:00 AM</th>
-                            <td>Spin Session</td>
-                            <td>Pilates Flow</td>
-                            <td>Zumba Energy</td>
-                            <td>Power Yoga</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">12:00 PM</th>
-                            <td>Core Crusher</td>
-                            <td>Cardio Mix</td>
-                            <td>CrossFit Lite</td>
-                            <td>Restorative Stretch</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">4:00 PM</th>
-                            <td>Strength 101</td>
-                            <td>Zumba Express</td>
-                            <td>Boxing Basics</td>
-                            <td>Circuit Burn</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">6:00 PM</th>
-                            <td>Kickboxing</td>
-                            <td>Yoga Balance</td>
-                            <td>Spin Power</td>
-                            <td>Dance Fit</td>
-                        </tr>      <a href="index.html">Home</a>
+        <a href="index.html">Home</a>
         <a href="contactus.html">Contact Us</a>
     </nav>
     <main>
-        <div class="container p-0">
-            <div class="card m-3">
-                <img src="img/fitness-card-img.jpg" class="card-img-top" alt="Man running on a treadmill">
-                <div class="card-body">
-                    <h2 class="card-title">Get Fit, Have Fun, Feel Great</h2>
-                    <p class="card-text">At <i>Fit for Fun Fitness Club</i>, we believe exercise should never feel like
-                        a chore. From high-energy group classes to flexible gym access, we make fitness something you'll
-                        actually look forward to.</p>
-                    <a href="contactus.html" class="btn btn-success">Contact Us!</a>
+        <div class="container mt-5">
+            <div class="container-fluid">
+                <div id="homepage-carousel" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#homepage-carousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner rounded-4">
+                        <div class="carousel-item active">
+                            <img src="img/fitness-card-img.jpg" class="card-img-top" alt="Man running on a treadmill">
+                            <div class="carousel-caption d-none d-md-block bg-black bg-opacity-75 text-white">
+                                <h3>Get Fit, Have Fun, Feel Great</h3>
+                                <p>At <i>Fit for Fun Fitness Club</i>, we believe exercise should never feel like
+                                    a chore. From high-energy group classes to flexible gym access, we make fitness something
+                                    you'll
+                                    actually look forward to.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item rounded-4">
+                            <img src="img/gym-floor-weights.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block bg-black bg-opacity-75 text-white">
+                                <h3>A Community That Moves Together</h3>
+                                <p>Our group classes bring peopel together, spark motivation, and make every session feel like a team victory.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item rounded-4">
+                            <img src="img/gym-man-lifting.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block bg-black bg-opacity-75 text-white">
+                                <h3>Your Goals, Your Pace</h3>
+                                <p>Our trainers, equipment, and flexible programs give you everything you need to grow stronger, healthier</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#homepage-carousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#homepage-carousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-            </div>
-        
-                    </tbody>
-                </table>
             </div>
         </div>
     </main>
     <footer class="text-center">
         <p class="text-white">Website by John Burch &copy; 2025</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
