@@ -1,0 +1,25 @@
+/* Custom Styling (not Bootstrap) */
+
+body {
+    background-color: #062C42;
+}
+
+h1 {
+    background-color: #062C42;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.4em;
+    font-weight: 800;
+    border-radius: 0.4rem;
+}
+
+table caption {
+    color: white;
+    font-weight: 600;
+}
+
+.custom-logo {
+    width: 6rem;
+    height: auto;
+}
